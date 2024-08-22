@@ -1,38 +1,38 @@
-# 🙂 mdickynovaldi.com
+# 🙂 Welcome to mdickynovaldi.com
 
-Selamat datang di portfolio online saya! Di sini, Anda dapat menemukan berbagai proyek dan karya yang telah saya kerjakan. Terima kasih telah mengunjungi situs saya!
+Welcome to my online portfolio! Here, you'll explore a collection of projects and achievements that I've passionately worked on. Thank you for stopping by!
 
-## 👋 Deskripsi
+## 👋 Overview
 
-Website ini adalah portofolio pribadi saya yang dirancang untuk menampilkan berbagai proyek dan pencapaian saya dalam bidang :
+This website serves as my personal portfolio, designed to showcase my work and accomplishments in:
 
-1. Desain Web
-2. Pengembangan Perangkat Lunak
+1. Web Design
+2. Software Development
 3. Augmented Reality
 4. Virtual Reality
 
-Di sini, Anda akan menemukan informasi tentang latar belakang saya, keterampilan, dan proyek-proyek yang telah saya kerjakan.
+You'll also find information about my background, skills, and the various projects I’ve completed.
 
-## 🧩 Fitur
+## 🧩 Features
 
-- **Beranda:** Menampilkan ringkasan dari proyek-proyek terbaru dan pencapaian saya.
-- **About:** Informasi tentang latar belakang saya, keterampilan, dan pengalaman.
-- **Portfolio:** Daftar proyek yang telah saya kerjakan, termasuk deskripsi, teknologi yang digunakan, dan tautan demo.
-- **Contact:** Cara untuk menghubungi saya melalui email atau media sosial.
+- **Home:** A snapshot of my latest projects and achievements.
+- **About:** Details about my background, skills, and professional journey.
+- **Portfolio:** A curated list of my projects, complete with descriptions, technologies used, and demo links.
+- **Contact:** Ways to reach out to me via email or social media.
 
-## 💻 Teknologi yang Digunakan
+## 💻 Technologies Used
 
-Website ini dibangun dengan teknologi berikut:
+This website is crafted using the following technologies:
 
-- **HTML5** - Struktur dasar website
-- **CSS3** - Gaya dan tata letak
+- **HTML5** - For the foundational structure
+- **CSS3** - For styling and layout
 
-**_seiring berjalannya waktu akan bertambah_**
+**_More features will be added over time_**
 
 ## 🎨 Design
 
 [Figma Design](https://www.figma.com/design/pqjPrJVMB3tkEyXhJUxwe2/Untitled?node-id=0-1&t=urS4uifIw4r6WYT6-1)
 
-## 📱 Kontak
+## 📱 Get in Touch
 
-Jika Anda ingin menghubungi saya, silakan kirim email ke [Email](mochdickyn@gmail.com) atau hubungi saya melalui [LinkedIn](https://linkedin.com/in/mochdickynovaldi)
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/mochdickynovaldi).
