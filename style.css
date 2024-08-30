@@ -1,204 +1,49 @@
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
+/*
+  Josh's Custom CSS Reset: https://joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #faecaf;
 }
-
 body {
-  background-image: url("images/background.jpg"); /* Ganti dengan path gambar Anda */
-  background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh layar */
-  background-repeat: no-repeat; /* Mencegah pengulangan gambar */
-  background-position: center; /* Memposisikan gambar di tengah */
-
-  font-family: Arial, sans-serif; /* Menambahkan font untuk teks */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
-nav ul li a:hover {
-  background-color: #74c8ff;
-}
-
-.icon-hero {
-  list-style-type: none;
+.navigation {
   display: flex;
-  padding: 0;
-  margin-top: 50px;
-}
-
-.icon-hero li {
-  margin: 0 10px;
-}
-
-.icon-hero li a {
-  display: block;
-}
-
-.icon-hero li img {
-  width: 20px;
-  height: auto;
-}
-
-.portfolio-item {
-  border: 2px solid #000000;
-  border-radius: 10px;
-  padding: 15px;
-
-  margin: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
-  display: inline-block;
-  text-align: center;
-}
-
-.portfolio-item:hover {
-  transform: scale(1.05);
-}
-
-.menu-item-mdickynovaldi {
-  text-align: center;
-  display: block;
-}
-
-.portfolio-img {
-  width: 800px;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.hero-div {
-  flex: 1;
+  align-items: center;
   padding: 20px;
 }
 
-.hero-photo {
-  border-radius: 50%;
-  flex: 0 0 auto;
-  margin-left: 20px;
-}
-
-.hero-photo img {
-  margin-right: 20%;
-  float: right;
-  max-width: 50%;
-  height: auto;
-}
-
-.flex {
-  margin-top: 50px;
-}
-
-.hero-button {
-  padding: 10px;
-  border-radius: 10px;
-  background-color: aqua;
-}
-
-.portfolio-title {
-  text-align: center;
-}
-
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about-div {
-  flex: 1;
-  padding: 20px;
-}
-
-.about-photo {
-  flex: 0 0 auto;
-  margin-left: 20px;
-}
-
-.about-photo img {
-  margin-right: 20%;
-  float: right;
-  max-width: 50%;
-  height: auto;
-}
-
-.icon-about {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  margin-top: 50px;
-}
-
-.icon-about li {
-  margin: 0 10px;
-}
-
-.icon-about li a {
-  display: block;
-}
-
-.icon-about li img {
-  width: 20px;
-  height: auto;
-}
-
-.contact-title {
-  text-align: center;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact form label,
-.contact form input,
-.contact form textarea,
-.contact form button {
-  width: 100%;
-  max-width: 500px;
-  margin-bottom: 15px;
-}
-
-.contact form input,
-.contact form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.contact form button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.contact form button:hover {
-  background-color: #0056b3;
-}
-
-footer {
-  margin-top: 5%;
-  text-align: center;
+.navigation-links {
+  margin: 0;
 }
