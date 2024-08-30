@@ -1,26 +1,105 @@
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #faecaf;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #faecaf;
+}
+
+main {
+  background-color: bisque;
 }
 
 nav ul li {
-    float: left;
-    
+  float: left;
 }
 
 nav ul li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #74c8ff;
+  background-color: #74c8ff;
 }
 
+.icon-hero {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin-top: 50px;
+}
 
+.icon-hero li {
+  margin: 0 10px;
+}
+
+.icon-hero li a {
+  display: block;
+}
+
+.icon-hero li img {
+  width: 20px;
+  height: auto;
+}
+
+.portfolio-item {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 15px;
+
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: inline-block;
+  text-align: center;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item-mdickynovaldi {
+  text-align: center;
+  display: block;
+}
+
+.portfolio-img {
+  width: 800px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-div {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-photo {
+  flex: 0 0 auto;
+  margin-left: 20px;
+}
+
+.hero-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex {
+  margin-top: 50px;
+}
+
+.hero-button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aqua;
+}
