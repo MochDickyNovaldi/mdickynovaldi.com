@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #fb923c;
+  --text-primary-color: #7c2d12;
+}
+
 /*
   Josh's Custom CSS Reset: https://joshwcomeau.com/css/custom-css-reset/
 */
@@ -90,9 +95,9 @@ body {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  border: 2px solid orange;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
-  background-color: orange;
+  background-color: var(--primary-color);
   padding: 10px 20px;
 }
 .navigation-cta a {
@@ -121,26 +126,28 @@ body {
   display: flex;
   list-style: none;
 }
+
 .hero-cta {
-  background-color: orange;
+  background-color: var(--primary-color);
+  color: var(--text-primary-color);
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
   text-decoration: none;
-  color: #000;
   font-weight: bold;
-
-  border: 2px solid orange;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
-  background-color: orange;
+  background-color: var(--primary-color);
   transition: transform 0.3s, background-color 0.3s;
 }
+
 .hero-cta:hover {
   transform: scale(1.05);
-  background-color: darkorange;
+  background-color: darkvar(--primary-color);
 }
+
 .hero-cta a {
   font-weight: bold;
   text-decoration: none;
@@ -149,6 +156,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .hero-image {
   margin-top: 100px;
   margin-right: 200px;
@@ -164,7 +172,6 @@ body {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
   gap: 20px;
   padding: 20px;
 }
@@ -192,7 +199,7 @@ body {
 }
 
 .portfolio-cta {
-  background-color: orange;
+  background-color: var(--primary-color);
   margin-bottom: 100px;
 
   height: 50px;
@@ -203,14 +210,14 @@ body {
   align-items: center;
   margin-top: 20px;
 
-  border: 2px solid orange;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
-  background-color: orange;
+  background-color: var(--primary-color);
   transition: transform 0.3s, background-color 0.3s;
 }
 .portfolio-cta:hover {
   transform: scale(1.05);
-  background-color: darkorange;
+  background-color: darkvar(--primary-color);
 }
 .portfolio-cta a {
   text-decoration: none;
@@ -279,7 +286,7 @@ body {
   margin-left: 150px;
 }
 .contact-button {
-  background-color: orange;
+  background-color: var(--primary-color);
   display: block;
   margin: 10px auto;
   color: #000000;
@@ -292,7 +299,7 @@ body {
 }
 
 .contact-button:hover {
-  background-color: darkorange;
+  background-color: darkvar(--primary-color);
   transform: scale(1.05);
 }
 
