@@ -145,7 +145,7 @@ body {
 
 .hero-cta:hover {
   transform: scale(1.05);
-  background-color: darkvar(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .hero-cta a {
@@ -217,7 +217,7 @@ body {
 }
 .portfolio-cta:hover {
   transform: scale(1.05);
-  background-color: darkvar(--primary-color);
+  background-color: var(--primary-color);
 }
 .portfolio-cta a {
   text-decoration: none;
@@ -299,7 +299,7 @@ body {
 }
 
 .contact-button:hover {
-  background-color: darkvar(--primary-color);
+  background-color: var(--primary-color);
   transform: scale(1.05);
 }
 
