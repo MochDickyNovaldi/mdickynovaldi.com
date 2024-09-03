@@ -1,4 +1,4 @@
-# 🙂 Welcome to my personal website
+# 🙂 M Dicky Novaldi personal website
 
 Welcome to my online portfolio! Here, you'll explore a collection of projects and achievements that I've passionately worked on. Thank you for stopping by!
 
