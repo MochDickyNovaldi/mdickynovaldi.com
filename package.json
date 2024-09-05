@@ -4,7 +4,8 @@
   "description": "Welcome to my online portfolio! Here, you'll explore a collection of projects and achievements that I've passionately worked on. Thank you for stopping by!",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./output.css --watch"
+    "tailwind:dev": "npx tailwindcss -i ./src/css/input.css -o ./output.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./src/css/input.css -o ./output.css --minify"
   },
   "keywords": [],
   "author": "",
