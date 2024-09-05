@@ -79,17 +79,30 @@ body {
 .navigation-links a:hover {
   color: #e4af1d;
 }
+.section-title {
+  text-align: center;
+  font-size: 5rem;
+  margin: 100px 0px;
+}
 .navigation-title {
   margin-top: 10px;
   font-weight: bold;
   font-size: 24px;
+
+  color: #000;
+}
+.navigation-logo-link {
+  text-decoration: none;
 }
 
 .navigation-logo {
   gap: 10px;
   display: flex;
 }
-
+.cta-link {
+  display: flex;
+  gap: 15px;
+}
 .navigation-cta {
   display: flex;
   gap: 10px;
